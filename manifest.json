@@ -1,0 +1,12 @@
+{
+    "name": "SavoWHAT Loh",
+    "description": "Sosat'",
+    "version": "1",
+    "manifest_version": 2,
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "css": ["style.css"]
+      }
+    ]
+  }
